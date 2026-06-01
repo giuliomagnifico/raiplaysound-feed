@@ -25,11 +25,17 @@ Gli URL nei feed vengono risolti fino alla CDN finale Rai, evitando i problemi c
 | Un giorno da pecora | https://giuliomagnifico.github.io/raiplaysound-feed/rss/programmi/ungiornodapecora.xml |
 | Zapping | https://giuliomagnifico.github.io/raiplaysound-feed/rss/programmi/zapping.xml |
 
+## Audiolibri
+
+| Audiolibro | Feed RSS |
+|------------|----------|
+| Arancia meccanica | https://giuliomagnifico.github.io/raiplaysound-feed/rss/audiolibri/aranciameccanica.xml |
+
 ## Abbonarsi o aggiungere un feed
 
-Per abbonarsi basta copiare l'URL del podcast dalla tabella nel lettore podcast.
+Per abbonarsi basta copiare l'URL del feed dalla tabella nel lettore podcast.
 
-Per aggiungere un feed puoi forkare il repository e aggiungere manualmente i feed, oppure aprire una Pull Request con il programma che vuoi aggiungere, modificando [static.ts](https://github.com/giuliomagnifico/raiplaysound-feed/blob/main/src/static.ts), per esempio:
+Per aggiungere programmi o audiolibri puoi forkare il repository e aggiungere manualmente i feed, oppure aprire una Pull Request modificando [static.ts](https://github.com/giuliomagnifico/raiplaysound-feed/blob/main/src/static.ts), esempio:
 
 ```ts
 {
@@ -38,7 +44,16 @@ Per aggiungere un feed puoi forkare il repository e aggiungere manualmente i fee
 }
 ```
 
-Al primo run della Action si aggiorna automaticamente anche la tabella nel README con il nuovo podcast/URL in ordine alfabetico.
+oppure per un audiolibro:
+
+```ts
+{
+  title: 'Arancia meccanica',
+  path: 'audiolibri/aranciameccanica'
+}
+```
+
+Al primo run della Action si aggiorna automaticamente anche la tabella nel README con il nuovo feed in ordine alfabetico.
 
 ## Aggiornamento orario
 
