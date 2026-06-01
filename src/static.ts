@@ -112,7 +112,7 @@ ${tableRows}
 
 Per abbonarsi basta copiare l'URL del podcast dalla tabella nel lettore podcast.
 
-Per aggiungere un feed puoi forkare il repository e aggiungere manualmente i feed, oppure aprire una Pull Request con il programma che vuoi aggiungere, modificando [static.ts](https://github.com/giuliomagnifico/raiplaysound-feed/blob/main/src/static.ts), per esempio:
+Per aggiungere programmi puoi forkare il repository e aggiungere manualmente i feeds, oppure aprire una Pull Request con il programma che vuoi aggiungere, modificando [static.ts](https://github.com/giuliomagnifico/raiplaysound-feed/blob/main/src/static.ts), esempio:
 
 \`\`\`ts
 {
@@ -121,7 +121,7 @@ Per aggiungere un feed puoi forkare il repository e aggiungere manualmente i fee
 }
 \`\`\`
 
-Al primo run della Action si aggiorna automaticamente anche la tabella nel README con il nuovo podcast/URL in ordine alfabetico.
+Al primo run della Action si aggiorna automaticamente anche la tabella nel README con il nuovo feed in ordine alfabetico.
 
 ## Aggiornamento orario
 
