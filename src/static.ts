@@ -5,7 +5,7 @@ import { initCache } from './cache.js'
 
 const BASE_URL = 'https://giuliomagnifico.github.io/raiplaysound-feed'
 
-const programs = [
+const podcasts = [
   {
     title: 'Radio3 Scienza',
     path: 'programmi/radio3scienza'
@@ -60,7 +60,22 @@ const programs = [
   }
 ]
 
-const sortedPrograms = [...programs].sort((a, b) =>
+const audiobooks = [
+  {
+    title: 'Arancia meccanica',
+    path: 'audiolibri/aranciameccanica'
+  }
+]
+
+const allFeeds = [...podcasts, ...audiobooks]
+
+const sortedPodcasts = [...podcasts].sort((a, b) =>
+  a.title.localeCompare(b.title, 'it', {
+    sensitivity: 'base'
+  })
+)
+
+const sortedAudiobooks = [...audiobooks].sort((a, b) =>
   a.title.localeCompare(b.title, 'it', {
     sensitivity: 'base'
   })
@@ -69,29 +84,47 @@ const sortedPrograms = [...programs].sort((a, b) =>
 await initCache()
 await fs.mkdir('out/rss', { recursive: true })
 
-for (const program of programs) {
+for (const feed of allFeeds) {
   try {
-    console.log(`Generating ${program.title}: ${program.path}`)
+    console.log(`Generating ${feed.title}: ${feed.path}`)
 
-    const xml = await buildFeed(program.path)
-    const file = path.join('out/rss', `${program.path}.xml`)
+    const xml = await buildFeed(feed.path)
+    const file = path.join('out/rss', `${feed.path}.xml`)
 
     await fs.mkdir(path.dirname(file), { recursive: true })
     await fs.writeFile(file, xml)
 
     console.log(`Generated ${file}`)
   } catch (err) {
-    console.error(`Skipped ${program.title} (${program.path})`)
+    console.error(`Skipped ${feed.title} (${feed.path})`)
     console.error(err)
   }
 }
 
-const tableRows = sortedPrograms
-  .map(program => {
-    const feedUrl = `${BASE_URL}/rss/${program.path}.xml`
-    return `| ${program.title} | ${feedUrl} |`
-  })
-  .join('\n')
+function markdownRows(feeds: typeof allFeeds) {
+  return feeds
+    .map(feed => {
+      const feedUrl = `${BASE_URL}/rss/${feed.path}.xml`
+      return `| ${feed.title} | ${feedUrl} |`
+    })
+    .join('\n')
+}
+
+function htmlRows(feeds: typeof allFeeds) {
+  return feeds
+    .map(feed => {
+      const feedUrl = `${BASE_URL}/rss/${feed.path}.xml`
+
+      return `<tr>
+  <td>${feed.title}</td>
+  <td><a href="${feedUrl}">${feedUrl}</a></td>
+</tr>`
+    })
+    .join('\n')
+}
+
+const podcastRows = markdownRows(sortedPodcasts)
+const audiobookRows = markdownRows(sortedAudiobooks)
 
 const readme = `# RaiPlay Sound Feed
 
@@ -106,18 +139,33 @@ Gli URL nei feed vengono risolti fino alla CDN finale Rai, evitando i problemi c
 
 | Podcast | Feed RSS |
 |----------|----------|
-${tableRows}
+${podcastRows}
+
+## Audiolibri
+
+| Audiolibro | Feed RSS |
+|------------|----------|
+${audiobookRows}
 
 ## Abbonarsi o aggiungere un feed
 
-Per abbonarsi basta copiare l'URL del podcast dalla tabella nel lettore podcast.
+Per abbonarsi basta copiare l'URL del feed dalla tabella nel lettore podcast.
 
-Per aggiungere programmi puoi forkare il repository e aggiungere manualmente i feeds, oppure aprire una Pull Request con il programma che vuoi aggiungere, modificando [static.ts](https://github.com/giuliomagnifico/raiplaysound-feed/blob/main/src/static.ts), esempio:
+Per aggiungere programmi o audiolibri puoi forkare il repository e aggiungere manualmente i feed, oppure aprire una Pull Request modificando [static.ts](https://github.com/giuliomagnifico/raiplaysound-feed/blob/main/src/static.ts), esempio:
 
 \`\`\`ts
 {
   title: 'Radio3 Scienza',
   path: 'programmi/radio3scienza'
+}
+\`\`\`
+
+oppure per un audiolibro:
+
+\`\`\`ts
+{
+  title: 'Arancia meccanica',
+  path: 'audiolibri/aranciameccanica'
 }
 \`\`\`
 
@@ -129,17 +177,6 @@ I feed vengono aggiornati automaticamente tramite GitHub Actions ogni ora e vien
 `
 
 await fs.writeFile('README.md', readme)
-
-const htmlRows = sortedPrograms
-  .map(program => {
-    const feedUrl = `${BASE_URL}/rss/${program.path}.xml`
-
-    return `<tr>
-  <td>${program.title}</td>
-  <td><a href="${feedUrl}">${feedUrl}</a></td>
-</tr>`
-  })
-  .join('\n')
 
 await fs.writeFile(
   'out/index.html',
@@ -154,12 +191,22 @@ await fs.writeFile(
 
 <p>Feed RSS statici per RaiPlay Sound con URL CDN Rai già risolti.</p>
 
+<h2>Podcast</h2>
 <table border="1">
 <tr>
 <th>Podcast</th>
 <th>Feed RSS</th>
 </tr>
-${htmlRows}
+${htmlRows(sortedPodcasts)}
+</table>
+
+<h2>Audiolibri</h2>
+<table border="1">
+<tr>
+<th>Audiolibro</th>
+<th>Feed RSS</th>
+</tr>
+${htmlRows(sortedAudiobooks)}
 </table>
 
 </body>
