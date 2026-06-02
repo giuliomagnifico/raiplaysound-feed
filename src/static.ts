@@ -62,6 +62,10 @@ const podcasts = [
     title: 'Tra poco in edicola',
     path: 'programmi/trapocoinedicola'
   },
+    {
+    title: 'Lillo e Greg 610',
+    path: 'programmi/lilloegreg610'
+  },
   {
     title: 'Un giorno da pecora',
     path: 'programmi/ungiornodapecora'
