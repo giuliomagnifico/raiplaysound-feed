@@ -76,6 +76,22 @@ const audiobooks = [
   {
     title: 'Arancia meccanica',
     path: 'audiolibri/aranciameccanica'
+  },
+    {
+    title: 'Cuore di tenebra',
+    path: 'audiolibri/cuoreditenebra'
+  },
+    {
+    title: 'Il grande Gatsby',
+    path: 'audiolibri/ilgrandegatsby'
+  },
+    {
+    title: 'Racconti di Italo Calvino',
+    path: 'audiolibri/raccontidiitalocalvino'
+  },
+    {
+    title: 'Ventimila leghe sotto i mari',
+    path: 'audiolibri/ventimilaleghesottoimari'
   }
 ]
 
