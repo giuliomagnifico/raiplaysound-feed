@@ -73,6 +73,10 @@ const podcasts = [
   {
     title: 'Number Stations - Le radio delle spie',
     path: 'programmi/numberstations-leradiodellespie'
+  },
+   {
+    title: 'Giro del Mondo in una Coppa',
+    path: 'programmi/girodelmondoinunacoppa'
   }
 ]
 
