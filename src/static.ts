@@ -69,6 +69,10 @@ const podcasts = [
   {
     title: 'Un giorno da pecora',
     path: 'programmi/ungiornodapecora'
+  },
+  {
+    title: 'Giro del Mondo in una Coppa',
+    path: 'programmi/girodelmondoinunacoppa'
   }
 ]
 
