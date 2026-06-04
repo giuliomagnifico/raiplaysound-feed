@@ -35,6 +35,10 @@ Questo progetto è una evoluzione di un mio [precedente repository](https://gith
 | Audiolibro | Feed RSS |
 |------------|----------|
 | Arancia meccanica | https://giuliomagnifico.github.io/raiplaysound-feed/rss/audiolibri/aranciameccanica.xml |
+| Cuore di tenebra | https://giuliomagnifico.github.io/raiplaysound-feed/rss/audiolibri/cuoreditenebra.xml |
+| Il grande Gatsby | https://giuliomagnifico.github.io/raiplaysound-feed/rss/audiolibri/ilgrandegatsby.xml |
+| Racconti di Italo Calvino | https://giuliomagnifico.github.io/raiplaysound-feed/rss/audiolibri/raccontidiitalocalvino.xml |
+| Ventimila leghe sotto i mari | https://giuliomagnifico.github.io/raiplaysound-feed/rss/audiolibri/ventimilaleghesottoimari.xml |
 
 ## Abbonarsi o aggiungere un feed
 
