@@ -78,6 +78,22 @@ const podcasts = [
     title: 'Pillole di Eta Beta',
     path: 'programmi/pilloledietabeta'
   },
+  {
+    title: 'Gr3',
+    path: 'programmi/Gr3'
+  },
+  {
+    title: 'Wikiradio. Le voci della storia',
+    path: 'programmi/wikiradiolevocidellastoria'
+  },
+  {
+    title: 'L'idealista',
+    path: 'programmi/lidealista'
+  },
+  {
+    title: 'La musica tra le righe',
+    path: 'programmi/lamusicatralerighe'
+  },
    {
     title: 'Giro del Mondo in una Coppa',
     path: 'programmi/girodelmondoinunacoppa'
