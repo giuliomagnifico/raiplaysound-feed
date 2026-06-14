@@ -18,5 +18,15 @@
     "mp3": "https://creativemedia4-rai-it.akamaized.net/podcastcdn/Rai/audiocut/GirodelmondoinunaCoppa_podcast/29613700_256.mp3",
     "date": "2026-06-08T12:03:00.000Z",
     "resolvedAt": 1780873536755
+  },
+  "ContentItem-5ad59d7f-e507-44b1-9451-cf57d6ce7545": {
+    "mp3": "https://creativemedia3-rai-it.akamaized.net/podcastcdn/Rai/audiocut/sound_originals/29671247_256.mp3",
+    "date": "2026-06-15T15:35:00.000Z",
+    "resolvedAt": 1781475056934
+  },
+  "ContentItem-d270a6f5-1448-4a11-b5bf-454d5ebc05ca": {
+    "mp3": "https://creativemedia3-rai-it.akamaized.net/podcastcdn/Rai/audiocut/sound_originals/29671248_256.mp3",
+    "date": "2026-06-15T15:35:00.000Z",
+    "resolvedAt": 1781475057681
   }
 }
