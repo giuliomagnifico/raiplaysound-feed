@@ -81,7 +81,15 @@ const podcasts = [
    {
     title: 'Giro del Mondo in una Coppa',
     path: 'programmi/girodelmondoinunacoppa'
-  }
+  },
+  {
+  title: 'Lezioni di musica',
+  path: 'programmi/lezionidimusica'
+},
+  {
+  title: 'Trenta minuti',
+  path: 'programmi/radio3trentaminuti'
+}
 ]
 
 const audiobooks = [
