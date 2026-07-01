@@ -25,9 +25,9 @@
     "resolvedAt": 1782842098740
   },
   "ContentItem-71f72752-ac51-438c-b36b-a2014a739014": {
-    "mp3": "https://creativemedia9-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/29601980.mp3",
+    "mp3": "https://creativemedia8-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/29601980.mp3",
     "date": "2026-06-03T06:33:00.000Z",
-    "resolvedAt": 1781696944642
+    "resolvedAt": 1782907742435
   },
   "ContentItem-4cddd530-77ff-40a7-a8bf-431773e3582e": {
     "mp3": "https://creativemedia9-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/29610669.mp3",
@@ -160,14 +160,14 @@
     "resolvedAt": 1782842098388
   },
   "ContentItem-35d63b87-6a8b-4011-80e5-543becb0be8e": {
-    "mp3": "https://creativemedia8-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/29714983.mp3",
+    "mp3": "https://creativemedia9-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/29714983.mp3",
     "date": "2026-06-17T11:33:00.000Z",
-    "resolvedAt": 1781696943250
+    "resolvedAt": 1782907741242
   },
   "ContentItem-21c98267-ef16-4c65-a327-65e6be6967f3": {
-    "mp3": "https://creativemedia9-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/29712638.mp3",
+    "mp3": "https://creativemedia8-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/29712638.mp3",
     "date": "2026-06-17T06:13:00.000Z",
-    "resolvedAt": 1781696943905
+    "resolvedAt": 1782907741769
   },
   "ContentItem-80fe9e96-917a-4d21-8d34-780a709f48e4": {
     "mp3": "https://creativemedia9-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/29720961.mp3",
@@ -303,5 +303,10 @@
     "mp3": "https://creativemedia9-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/29817434.mp3",
     "date": "2026-07-01T06:13:00.000Z",
     "resolvedAt": 1782893940391
+  },
+  "ContentItem-75851b28-9c36-4359-af00-5dadec82fcb4": {
+    "mp3": "https://creativemedia8-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/29819217.mp3",
+    "date": "2026-07-01T11:17:00.000Z",
+    "resolvedAt": 1782907740692
   }
 }
