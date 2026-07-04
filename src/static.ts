@@ -87,7 +87,7 @@ const podcasts = [
     path: 'programmi/wikiradiolevocidellastoria'
   },
   {
-    title: "L'idealista,
+    title: "L'idealista",
     path: 'programmi/lidealista'
   },
   {
