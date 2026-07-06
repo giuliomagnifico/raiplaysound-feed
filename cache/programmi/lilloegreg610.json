@@ -714,11 +714,6 @@
     "date": "2025-12-25T09:30:00.000Z",
     "resolvedAt": 1782920555701
   },
-  "ContentItem-3968bd0b-c654-4184-804f-1afbe8630002": {
-    "mp3": "https://creativemedia3-rai-it.akamaized.net/podcastcdn/Rai/audiocut/29753591_1800.mp4",
-    "date": "2026-06-22T14:37:00.000Z",
-    "resolvedAt": 1782143543075
-  },
   "ContentItem-42df76ff-7986-420f-a702-9d189546abd1": {
     "mp3": "https://creativemedia3-rai-it.akamaized.net/podcastcdn/Rai/audiocut/sound_cms/29705541.mp3",
     "date": "2026-05-28T14:41:00.000Z",
@@ -728,11 +723,6 @@
     "mp3": "https://creativemedia3-rai-it.akamaized.net/podcastcdn/Rai/audiocut/sound_cms/29705458.mp3",
     "date": "2026-05-13T14:38:00.000Z",
     "resolvedAt": 1782143544828
-  },
-  "ContentItem-2a626f67-a008-4664-af69-94a1a1d65509": {
-    "mp3": "https://creativemedia3-rai-it.akamaized.net/podcastcdn/Rai/audiocut/29761737_1800.mp4",
-    "date": "2026-06-23T14:36:00.000Z",
-    "resolvedAt": 1782229742218
   },
   "ContentItem-a470e217-5f55-4fe1-8202-560f0dbafb1d": {
     "mp3": "https://creativemedia3-rai-it.akamaized.net/podcastcdn/Rai/audiocut/sound_cms/29705538.mp3",
@@ -748,20 +738,5 @@
     "mp3": "https://creativemedia4-rai-it.akamaized.net/podcastcdn/Rai/audiocut/sound_cms/29705460.mp3",
     "date": "2026-05-25T14:33:00.000Z",
     "resolvedAt": 1782229744073
-  },
-  "ContentItem-5d226dcf-b277-4e06-a2da-98ec664540cf": {
-    "mp3": "https://creativemedia4-rai-it.akamaized.net/podcastcdn/Rai/audiocut/29769568_1800.mp4",
-    "date": "2026-06-24T14:32:00.000Z",
-    "resolvedAt": 1782311538751
-  },
-  "ContentItem-af75455d-2f07-47cf-91b9-b5351991c87b": {
-    "mp3": "https://creativemedia4-rai-it.akamaized.net/podcastcdn/Rai/audiocut/29778125_1800.mp4",
-    "date": "2026-06-25T14:34:00.000Z",
-    "resolvedAt": 1782404736361
-  },
-  "ContentItem-5e60f9ca-c435-4b94-8dc5-25977930b904": {
-    "mp3": "https://creativemedia3-rai-it.akamaized.net/podcastcdn/Rai/audiocut/29786914_1800.mp4",
-    "date": "2026-06-26T15:09:00.000Z",
-    "resolvedAt": 1782490650108
   }
 }
