@@ -303,5 +303,10 @@
     "mp3": "https://creativemedia8-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/29856719.mp3",
     "date": "2026-07-06T11:49:00.000Z",
     "resolvedAt": 1783344208952
+  },
+  "ContentItem-eb2f8200-89f7-4526-868b-50c491834986": {
+    "mp3": "https://creativemedia8-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/29862151.mp3",
+    "date": "2026-07-07T06:18:00.000Z",
+    "resolvedAt": 1783409945509
   }
 }
