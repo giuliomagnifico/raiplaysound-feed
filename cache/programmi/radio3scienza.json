@@ -2068,5 +2068,10 @@
     "mp3": "https://creativemedia4-rai-it.akamaized.net/podcastcdn/Rai/audiocut/29863521_1800.mp3",
     "date": "2026-07-07T10:08:00.000Z",
     "resolvedAt": 1783421831087
+  },
+  "ContentItem-3c9f2cf8-e0d4-4f10-971d-39a44b79dc06": {
+    "mp3": "https://creativemedia3-rai-it.akamaized.net/podcastcdn/Rai/audiocut/29871620_1800.mp3",
+    "date": "2026-07-08T10:05:00.000Z",
+    "resolvedAt": 1783508714294
   }
 }
