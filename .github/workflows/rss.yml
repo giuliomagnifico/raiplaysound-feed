@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 */1 * * *"
-  
+
 permissions:
   contents: write
   pages: write
@@ -44,7 +44,7 @@ jobs:
           git push
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
         with:
           path: out
 
