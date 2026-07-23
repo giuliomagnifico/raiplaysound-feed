@@ -79,8 +79,8 @@ const podcasts = [
     path: 'programmi/pilloledietabeta'
   },
   {
-    title: 'Gr3',
-    path: 'programmi/Gr3'
+    title: 'GR3',
+    path: 'programmi/gr3'
   },
   {
     title: 'Wikiradio. Le voci della storia',
