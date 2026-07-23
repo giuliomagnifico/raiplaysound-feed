@@ -13,7 +13,7 @@ Questo repository genera dei feed RSS per i programmi di RaiPlay Sound, e sono g
 | Giro del Mondo in una Coppa | https://giuliomagnifico.github.io/raiplaysound-feed/rss/programmi/girodelmondoinunacoppa.xml |
 | GR Friuli Venezia Giulia | https://giuliomagnifico.github.io/raiplaysound-feed/rss/programmi/grfriuliveneziagiulia.xml |
 | GR1 | https://giuliomagnifico.github.io/raiplaysound-feed/rss/programmi/gr1.xml |
-| Gr3 | https://giuliomagnifico.github.io/raiplaysound-feed/rss/programmi/Gr3.xml |
+| GR3 | https://giuliomagnifico.github.io/raiplaysound-feed/rss/programmi/gr3.xml |
 | L'edicola di Radio1 | https://giuliomagnifico.github.io/raiplaysound-feed/rss/programmi/ledicoladiradio1.xml |
 | L'idealista | https://giuliomagnifico.github.io/raiplaysound-feed/rss/programmi/lidealista.xml |
 | La musica tra le righe | https://giuliomagnifico.github.io/raiplaysound-feed/rss/programmi/lamusicatralerighe.xml |
