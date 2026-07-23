@@ -4,8 +4,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 */1 * * *"
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
   
 permissions:
   contents: write
@@ -59,4 +57,4 @@ jobs:
 
     steps:
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
