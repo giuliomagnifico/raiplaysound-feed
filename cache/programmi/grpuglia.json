@@ -233,5 +233,10 @@
     "mp3": "https://creativemedia9-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Puglia_mp3/30281039.mp3",
     "date": "2026-09-07T11:11:00.000Z",
     "resolvedAt": 1788798740686
+  },
+  "ContentItem-129592ff-845b-424d-84bb-026ce32cea8a": {
+    "mp3": "https://creativemedia9-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Puglia_mp3/30286869.mp3",
+    "date": "2026-09-08T06:09:00.000Z",
+    "resolvedAt": 1788860956513
   }
 }
