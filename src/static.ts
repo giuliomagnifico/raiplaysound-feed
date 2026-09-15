@@ -131,6 +131,10 @@ const podcasts = [
     title: "Riverberi",
     path: "/programmi/riverberi"
   },
+  {
+    title: "Sancho",
+    path: "/programmi/sancho"
+  },
 ]
 
 const audiobooks = [
