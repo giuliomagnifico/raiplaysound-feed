@@ -13,6 +13,15 @@ const MEDIA_URL = 'https://creativemedia'
 const MEDIA_URL_FULL = 'https://creativemedia{0}-rai-it.akamaized.net/'
 const PATTERN = /ostr(?<number>\d+)\/(?<file>.*?mp\d)/
 
+function parseAudioDuration(value: unknown): number | undefined {
+  if (typeof value !== 'string') return undefined
+
+  const match = /^(\d+):([0-5]\d):([0-5]\d)$/.exec(value)
+  if (!match) return undefined
+
+  return Number(match[1]) * 3600 + Number(match[2]) * 60 + Number(match[3])
+}
+
 async function isAlive(url: string) {
   try {
     const res = await fetchT(url, { method: 'HEAD' })
@@ -133,6 +142,7 @@ async function buildFeed(program: string, forceRefresh: boolean = false) {
 
   for (const item of items) {
     const ep = episodes.find((e: any) => e.uniquename === item.id)
+    const episodeDuration = parseAudioDuration(ep.audio?.duration)
 
     feed.addItem({
       title: ep.episode_title ?? ep.title,
@@ -140,6 +150,7 @@ async function buildFeed(program: string, forceRefresh: boolean = false) {
       link: BASE + ep.weblink,
       description: ep.description,
       date: new Date(item.date),
+      ...(episodeDuration !== undefined ? { duration: episodeDuration } : {}),
       enclosure: {
         url: item.mp3,
         type: item.mp3.endsWith('3') ? 'audio/mpeg' : 'audio/mp4'
