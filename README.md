@@ -81,9 +81,9 @@ I feed vengono aggiornati automaticamente tramite GitHub Actions ogni ora e vien
 
 ## INFO
 
-Questo progetto è un'evoluzione di un mio [precedente repository](https://github.com/giuliomagnifico/raiplay-feed), il quale aveva il problema di non risolvere correttamente il redirect ed era quindi necessario scaricare il file prima di riprodurre certi podcast. Adesso gli URL vengono risolti fino alla CDN finale Rai, evitando i problemi causati dai redirect `relinkerServlet.htm` con alcuni client podcast, ad esempio [Pocket Casts](https://pocketcasts.com/).
+Questo progetto è un'evoluzione di un mio [precedente repository](https://github.com/giuliomagnifico/raiplay-feed), il quale aveva il problema di non risolvere correttamente il redirect ed era quindi necessario scaricare il file prima di riprodurre certi podcast. Adesso gli URL vengono risolti fino alla CDN finale Rai, evitando i problemi causati dai redirect `relinkerServlet.htm` con alcuni client podcast, ad esempio [Pocket Casts](https://pocketcasts.com/)
 
 
 > [!TIP]
-> È una versione modificata del repository [frammenti/raiplaysoundrss](https://github.com/frammenti/raiplaysoundrss), costruita per poter funzionare usando solo GitHub, in modo da essere indipendente da un server esterno.
+> È una versione modificata del repository [frammenti/raiplaysoundrss](https://github.com/frammenti/raiplaysoundrss), costruita per poter funzionare usando solo GitHub, in modo da essere indipendente da un server esterno, inoltre ho aggiunto la durata dell'episodio, in modo che un lettore di podcast possa mostrare la durata correttamente anche prima di fare partire un episodio.
 
