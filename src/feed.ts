@@ -150,10 +150,13 @@ async function buildFeed(program: string, forceRefresh: boolean = false) {
       link: BASE + ep.weblink,
       description: ep.description,
       date: new Date(item.date),
+      extensions:
+        episodeDuration === undefined
+          ? []
+          : [{ name: 'itunes:duration', objects: { _text: String(episodeDuration) } }],
       enclosure: {
         url: item.mp3,
-        type: item.mp3.endsWith('3') ? 'audio/mpeg' : 'audio/mp4',
-        ...(episodeDuration !== undefined ? { duration: episodeDuration } : {})
+        type: item.mp3.endsWith('3') ? 'audio/mpeg' : 'audio/mp4'
       }
     })
   }
