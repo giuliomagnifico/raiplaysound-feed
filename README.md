@@ -85,5 +85,5 @@ Questo progetto è un'evoluzione di un mio [precedente repository](https://githu
 
 
 > [!TIP]
-> È una versione modificata del repository [frammenti/raiplaysoundrss](https://github.com/frammenti/raiplaysoundrss), costruita per poter funzionare usando solo GitHub, in modo da essere indipendente da un server esterno, inoltre ho aggiunto la durata dell'episodio, in modo che un lettore di podcast possa mostrare la durata correttamente anche prima di fare partire un episodio.
+> È una versione modificata del repository [frammenti/raiplaysoundrss](https://github.com/frammenti/raiplaysoundrss), costruita per poter funzionare usando solo GitHub, in modo da essere indipendente da un server esterno, inoltre ho aggiunto la durata dell'episodio. In questo modo  un lettore di podcast mostra la durata corretta anche senza fare partire la riproduzione dell'episodio.
 
