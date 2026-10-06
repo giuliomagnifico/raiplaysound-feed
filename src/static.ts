@@ -135,6 +135,18 @@ const podcasts = [
     title: "Sancho",
     path: "/programmi/sancho"
   },
+  {
+    title: "Tre soldi",
+    path: "/programmi/tresoldi"
+  },
+  {
+    title: "Israele anno zero",
+    path: "/programmi/israeleannozero"
+  },
+  {
+    title: "Il ritorno. Afghanistan, cinque anni dopo",
+    path: "/programmi/ilritornoafghanistancinqueannidopo"
+  },
 ]
 
 const audiobooks = [
