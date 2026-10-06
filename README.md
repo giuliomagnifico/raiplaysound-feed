@@ -17,6 +17,8 @@ Questo repository genera dei feed RSS per i programmi di RaiPlay Sound, e sono g
 | GR Puglia | https://giuliomagnifico.github.io/raiplaysound-feed/rss/programmi/grpuglia.xml |
 | GR1 | https://giuliomagnifico.github.io/raiplaysound-feed/rss/programmi/gr1.xml |
 | GR3 | https://giuliomagnifico.github.io/raiplaysound-feed/rss/programmi/gr3.xml |
+| Il ritorno. Afghanistan, cinque anni dopo | https://giuliomagnifico.github.io/raiplaysound-feed/rss//programmi/ilritornoafghanistancinqueannidopo.xml |
+| Israele anno zero | https://giuliomagnifico.github.io/raiplaysound-feed/rss//programmi/israeleannozero.xml |
 | L'edicola di Radio1 | https://giuliomagnifico.github.io/raiplaysound-feed/rss/programmi/ledicoladiradio1.xml |
 | L'idealista | https://giuliomagnifico.github.io/raiplaysound-feed/rss/programmi/lidealista.xml |
 | La musica tra le righe | https://giuliomagnifico.github.io/raiplaysound-feed/rss/programmi/lamusicatralerighe.xml |
@@ -34,6 +36,7 @@ Questo repository genera dei feed RSS per i programmi di RaiPlay Sound, e sono g
 | Sancho | https://giuliomagnifico.github.io/raiplaysound-feed/rss//programmi/sancho.xml |
 | Sei gradi | https://giuliomagnifico.github.io/raiplaysound-feed/rss/programmi/seigradi.xml |
 | Tra poco in edicola | https://giuliomagnifico.github.io/raiplaysound-feed/rss/programmi/trapocoinedicola.xml |
+| Tre soldi | https://giuliomagnifico.github.io/raiplaysound-feed/rss//programmi/tresoldi.xml |
 | Trenta minuti | https://giuliomagnifico.github.io/raiplaysound-feed/rss/programmi/radio3trentaminuti.xml |
 | Tutta la città ne parla | https://giuliomagnifico.github.io/raiplaysound-feed/rss/programmi/tuttalacittaneparla.xml |
 | Un giorno da pecora | https://giuliomagnifico.github.io/raiplaysound-feed/rss/programmi/ungiornodapecora.xml |

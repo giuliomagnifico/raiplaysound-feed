@@ -27,7 +27,7 @@
   "ContentItem-91460374-819c-489d-a376-7057bfb362fb": {
     "mp3": "https://creativemedia9-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/30287001.mp3",
     "date": "2026-09-08T06:25:00.000Z",
-    "resolvedAt": 1790071498058
+    "resolvedAt": 1791286980750
   },
   "ContentItem-bdc0e734-e4b2-4368-a3ce-8032b3d14fa4": {
     "mp3": "https://creativemedia9-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/30288848.mp3",
@@ -160,9 +160,9 @@
     "resolvedAt": 1791191613286
   },
   "ContentItem-49821e82-f4dc-4192-a3d3-e2d56b9704c1": {
-    "mp3": "https://creativemedia8-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/30394658.mp3",
+    "mp3": "https://creativemedia9-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/30394658.mp3",
     "date": "2026-09-22T06:14:00.000Z",
-    "resolvedAt": 1790071497281
+    "resolvedAt": 1791286979962
   },
   "ContentItem-ed3ed593-06dd-469b-b2c0-12db416b7b75": {
     "mp3": "https://creativemedia9-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/30397008.mp3",
@@ -303,5 +303,10 @@
     "mp3": "https://creativemedia9-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/30510101.mp3",
     "date": "2026-10-06T06:39:00.000Z",
     "resolvedAt": 1791272605895
+  },
+  "ContentItem-f16cc4ec-1a6f-40e3-b308-8931873892e2": {
+    "mp3": "https://creativemedia9-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/30512841.mp3",
+    "date": "2026-10-06T11:13:00.000Z",
+    "resolvedAt": 1791286978916
   }
 }
