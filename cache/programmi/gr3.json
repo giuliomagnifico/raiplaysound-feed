@@ -1,29 +1,4 @@
 {
-  "ContentItem-004de607-d21b-4e88-b3c2-016fce719931": {
-    "mp3": "https://creativemedia4-rai-it.akamaized.net/podcastcdn/Rai/audiocut/gr3_audiocut/30442520_1800.mp3",
-    "date": "2026-09-28T07:09:00.000Z",
-    "resolvedAt": 1793024606189
-  },
-  "ContentItem-2802d698-a41c-461e-b00a-4ac4f77fc68c": {
-    "mp3": "https://creativemedia4-rai-it.akamaized.net/podcastcdn/Rai/audiocut/gr3_audiocut/30441950_1800.mp3",
-    "date": "2026-09-28T06:02:00.000Z",
-    "resolvedAt": 1793024606897
-  },
-  "ContentItem-b466580b-462d-4103-9f7d-e2e88df2de07": {
-    "mp3": "https://creativemedia4-rai-it.akamaized.net/podcastcdn/Rai/audiocut/gr3_audiocut/30447886_1800.mp3",
-    "date": "2026-09-28T17:03:00.000Z",
-    "resolvedAt": 1793046958203
-  },
-  "ContentItem-6a69e6a0-9536-48c5-894a-b4551b7c5fb3": {
-    "mp3": "https://creativemedia4-rai-it.akamaized.net/podcastcdn/Rai/audiocut/gr3_audiocut/30446764_1800.mp3",
-    "date": "2026-09-28T15:10:00.000Z",
-    "resolvedAt": 1793046958448
-  },
-  "ContentItem-494bb85e-b19f-4cbb-a1d6-e8edd06e76ce": {
-    "mp3": "https://creativemedia4-rai-it.akamaized.net/podcastcdn/Rai/audiocut/gr3_audiocut/30445399_1800.mp3",
-    "date": "2026-09-28T12:06:00.000Z",
-    "resolvedAt": 1793046958945
-  },
   "ContentItem-b5e92892-db5e-4923-a8ac-3fd7ada0906d": {
     "mp3": "https://creativemedia4-rai-it.akamaized.net/podcastcdn/Rai/audiocut/gr3_audiocut/30450324_1800.mp3",
     "date": "2026-09-29T05:28:00.000Z",
@@ -70,9 +45,9 @@
     "resolvedAt": 1793213773294
   },
   "ContentItem-d681ae28-aaf2-47a5-b6a0-f428b7cee568": {
-    "mp3": "https://creativemedia4-rai-it.akamaized.net/podcastcdn/Rai/audiocut/gr3_audiocut/30465608_1800.mp3",
+    "mp3": "https://creativemedia3-rai-it.akamaized.net/podcastcdn/Rai/audiocut/gr3_audiocut/30465608_1800.mp3",
     "date": "2026-09-30T17:09:00.000Z",
-    "resolvedAt": 1792016541052
+    "resolvedAt": 1793229564827
   },
   "ContentItem-96e49524-75c9-47d6-a7e4-248a030a974c": {
     "mp3": "https://creativemedia3-rai-it.akamaized.net/podcastcdn/Rai/audiocut/gr3_audiocut/30468842_1800.mp3",
