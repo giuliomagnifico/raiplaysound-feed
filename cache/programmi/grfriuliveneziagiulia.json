@@ -27,7 +27,7 @@
   "ContentItem-fa64480b-c633-46ba-9c94-89c4da506fce": {
     "mp3": "https://creativemedia8-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/30468504.mp3",
     "date": "2026-10-01T06:14:00.000Z",
-    "resolvedAt": 1792049608619
+    "resolvedAt": 1793268642564
   },
   "ContentItem-1fad64c4-8564-4e7a-9924-e1a4b93beabd": {
     "mp3": "https://creativemedia9-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/30470993.mp3",
@@ -165,9 +165,9 @@
     "resolvedAt": 1793213720533
   },
   "ContentItem-22f5138a-3fdb-4de2-a3d9-45fd00342998": {
-    "mp3": "https://creativemedia9-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/30587511.mp3",
+    "mp3": "https://creativemedia8-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/30587511.mp3",
     "date": "2026-10-15T06:09:00.000Z",
-    "resolvedAt": 1792049607808
+    "resolvedAt": 1793268642390
   },
   "ContentItem-4f063256-e2a0-4309-be8f-abaf93ede2f9": {
     "mp3": "https://creativemedia9-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/30590005.mp3",
@@ -283,5 +283,20 @@
     "mp3": "https://creativemedia9-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/30688587.mp3",
     "date": "2026-10-27T07:21:00.000Z",
     "resolvedAt": 1793107278791
+  },
+  "ContentItem-abda3a78-07b2-4e1f-874b-8cb4f47f3303": {
+    "mp3": "https://creativemedia9-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/30706753.mp3",
+    "date": "2026-10-29T08:06:00.000Z",
+    "resolvedAt": 1793268641695
+  },
+  "ContentItem-9e42be90-eb88-490b-a3b3-68d0f9dcbcd8": {
+    "mp3": "https://creativemedia8-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/30706741.mp3",
+    "date": "2026-10-29T08:05:00.000Z",
+    "resolvedAt": 1793268641945
+  },
+  "ContentItem-7b9da0c7-924f-4ddb-8f91-ef4fafa7b9f9": {
+    "mp3": "https://creativemedia8-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/30706734.mp3",
+    "date": "2026-10-29T08:05:00.000Z",
+    "resolvedAt": 1793268642167
   }
 }
