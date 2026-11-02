@@ -1,12 +1,27 @@
 {
-  "ContentItem-0efeb7ec-6a42-4a6c-826b-7f8e91218b66": {
-    "mp3": "https://creativemedia3-rai-it.akamaized.net/podcastcdn/Rai/audiocut/sound_cms/30657642.mp3",
-    "date": "2026-10-25T08:33:00.000Z",
-    "resolvedAt": 1792946152638
+  "ContentItem-2e864fe8-4dbd-48c7-9652-c58dfae57219": {
+    "mp3": "https://creativemedia4-rai-it.akamaized.net/archive_g/Archive/NewsVod/Omnibus/8291553.mp3",
+    "date": "2018-01-29T05:24:00.000Z",
+    "resolvedAt": 1793644535734
   },
-  "ContentItem-9059e87c-28a2-45b0-95c2-b64f0903fd99": {
-    "mp3": "https://creativemedia3-rai-it.akamaized.net/podcastcdn/Rai/audiocut/30733054_1800.mp3",
-    "date": "2026-11-01T17:20:00.000Z",
-    "resolvedAt": 1793567861886
+  "ContentItem-35962508-1458-44d0-945d-75fea8ebcdf8": {
+    "mp3": "https://creativemedia4-rai-it.akamaized.net/archive_g/Archive/NewsVod/Omnibus/8296854.mp3",
+    "date": "2018-01-30T09:24:00.000Z",
+    "resolvedAt": 1793644536418
+  },
+  "ContentItem-b825b9a1-c317-4827-89b6-84257851681e": {
+    "mp3": "https://creativemedia4-rai-it.akamaized.net/archive_g/Archive/NewsVod/Omnibus/8302806.mp3",
+    "date": "2018-01-31T09:24:00.000Z",
+    "resolvedAt": 1793644537202
+  },
+  "ContentItem-7efd9e3e-2aa4-4bf9-810a-20f93d3c7af6": {
+    "mp3": "https://creativemedia4-rai-it.akamaized.net/archive_g/Archive/NewsVod/Omnibus/8308527.mp3",
+    "date": "2018-02-01T05:24:00.000Z",
+    "resolvedAt": 1793644537884
+  },
+  "ContentItem-7be8904e-67a4-4eff-b96f-8b6b28943493": {
+    "mp3": "https://creativemedia4-rai-it.akamaized.net/archive_g/Archive/NewsVod/Omnibus/8314217.mp3",
+    "date": "2018-02-02T05:24:00.000Z",
+    "resolvedAt": 1793644538609
   }
 }
