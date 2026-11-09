@@ -27,12 +27,12 @@
   "ContentItem-6dee9a76-d039-4e0e-a4ad-9dbb7289101e": {
     "mp3": "https://creativemedia8-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/30561355.mp3",
     "date": "2026-10-12T06:35:00.000Z",
-    "resolvedAt": 1793024581845
+    "resolvedAt": 1794263425451
   },
   "ContentItem-447a4b85-bebb-45c4-8530-0dbc91cf98f4": {
     "mp3": "https://creativemedia8-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/30564060.mp3",
     "date": "2026-10-12T11:13:00.000Z",
-    "resolvedAt": 1793046932716
+    "resolvedAt": 1794263424502
   },
   "ContentItem-698a3516-880b-4f83-8e4d-a37fda1b2942": {
     "mp3": "https://creativemedia8-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/30570470.mp3",
@@ -162,12 +162,12 @@
   "ContentItem-4177ba78-bc4e-45a3-bdc6-ac5472f3a730": {
     "mp3": "https://creativemedia8-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/30682395.mp3",
     "date": "2026-10-26T12:14:00.000Z",
-    "resolvedAt": 1793024580280
+    "resolvedAt": 1794263422654
   },
   "ContentItem-881a137f-5092-4e03-a169-4c69fab2d14f": {
-    "mp3": "https://creativemedia9-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/30679542.mp3",
+    "mp3": "https://creativemedia8-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/30679542.mp3",
     "date": "2026-10-26T07:34:00.000Z",
-    "resolvedAt": 1793024581040
+    "resolvedAt": 1794263423621
   },
   "ContentItem-e4b17842-699e-4647-b52c-aac75aa7e683": {
     "mp3": "https://creativemedia9-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/30688587.mp3",
@@ -298,5 +298,10 @@
     "mp3": "https://creativemedia9-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/30794290.mp3",
     "date": "2026-11-09T07:24:00.000Z",
     "resolvedAt": 1794224879435
+  },
+  "ContentItem-7e24e6c9-e5d6-45ef-ae31-cf1c25d5e361": {
+    "mp3": "https://creativemedia8-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/30796861.mp3",
+    "date": "2026-11-09T12:12:00.000Z",
+    "resolvedAt": 1794263421285
   }
 }
