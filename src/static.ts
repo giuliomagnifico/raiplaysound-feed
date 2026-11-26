@@ -19,8 +19,16 @@ const podcasts = [
     path: "programmi/gr1"
   },
   {
+    title: "GR2",
+    path: "programmi/gr2"
+  },
+  {
     title: "GR Friuli Venezia Giulia",
     path: "programmi/grfriuliveneziagiulia"
+  },
+  {
+    title: "GR Sicilia",
+    path: "programmi/grsicilia"
   },
   {
     title: "Radio anch'io",
