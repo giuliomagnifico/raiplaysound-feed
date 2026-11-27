@@ -15,7 +15,9 @@ Questo repository genera dei feed RSS per i programmi di RaiPlay Sound, e sono g
 | Giro del Mondo in una Coppa | https://giuliomagnifico.github.io/raiplaysound-feed/rss/programmi/girodelmondoinunacoppa.xml |
 | GR Friuli Venezia Giulia | https://giuliomagnifico.github.io/raiplaysound-feed/rss/programmi/grfriuliveneziagiulia.xml |
 | GR Puglia | https://giuliomagnifico.github.io/raiplaysound-feed/rss/programmi/grpuglia.xml |
+| GR Sicilia | https://giuliomagnifico.github.io/raiplaysound-feed/rss/programmi/grsicilia.xml |
 | GR1 | https://giuliomagnifico.github.io/raiplaysound-feed/rss/programmi/gr1.xml |
+| GR2 | https://giuliomagnifico.github.io/raiplaysound-feed/rss/programmi/gr2.xml |
 | GR3 | https://giuliomagnifico.github.io/raiplaysound-feed/rss/programmi/gr3.xml |
 | Il ritorno. Afghanistan, cinque anni dopo | https://giuliomagnifico.github.io/raiplaysound-feed/rss//programmi/ilritornoafghanistancinqueannidopo.xml |
 | Israele anno zero | https://giuliomagnifico.github.io/raiplaysound-feed/rss//programmi/israeleannozero.xml |

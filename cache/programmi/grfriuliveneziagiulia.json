@@ -17,12 +17,12 @@
   "ContentItem-82cc47fa-96e0-4b8e-b3d0-b472a37707d1": {
     "mp3": "https://creativemedia8-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/30714648.mp3",
     "date": "2026-10-30T07:42:00.000Z",
-    "resolvedAt": 1794562974552
+    "resolvedAt": 1795792665370
   },
   "ContentItem-82c8ed8f-a9ca-4dc5-b13d-63f1f9819f63": {
-    "mp3": "https://creativemedia8-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/30714636.mp3",
+    "mp3": "https://creativemedia9-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/30714636.mp3",
     "date": "2026-10-30T07:42:00.000Z",
-    "resolvedAt": 1794562975399
+    "resolvedAt": 1795792666293
   },
   "ContentItem-d9c7b0c4-ae6e-4f15-977e-cb60924780c0": {
     "mp3": "https://creativemedia8-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/30724579.mp3",
@@ -162,7 +162,7 @@
   "ContentItem-5299b03b-3c8b-4e32-8bac-f2a8aa696743": {
     "mp3": "https://creativemedia9-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/30830308.mp3",
     "date": "2026-11-13T07:32:00.000Z",
-    "resolvedAt": 1794562973743
+    "resolvedAt": 1795792664471
   },
   "ContentItem-dadf9f1f-0f19-42a6-a1fb-1261d97040a0": {
     "mp3": "https://creativemedia8-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/30832568.mp3",
@@ -303,5 +303,15 @@
     "mp3": "https://creativemedia9-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/30934494.mp3",
     "date": "2026-11-26T07:36:00.000Z",
     "resolvedAt": 1795697489004
+  },
+  "ContentItem-cd3c8dd3-934b-4b39-ba8e-cccb2e0b24e8": {
+    "mp3": "https://creativemedia9-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/30945908.mp3",
+    "date": "2026-11-27T12:08:00.000Z",
+    "resolvedAt": 1795792663510
+  },
+  "ContentItem-6d4dc0ac-378c-4ba9-9896-c1b02e410ae7": {
+    "mp3": "https://creativemedia9-rai-it.akamaized.net/podcastcdn/GRRegionali_mp3/GRR_Friuli_mp3/30943506.mp3",
+    "date": "2026-11-27T07:32:00.000Z",
+    "resolvedAt": 1795792664059
   }
 }
